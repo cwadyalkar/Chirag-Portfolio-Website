@@ -33,7 +33,7 @@ const Footer = () => {
           <a
             href="https://www.instagram.com/_itzchirag_?igsh=M3I1N29kNGhyY3I2"
             className="footer__social-link"
-            target="_blank"
+            target="_blank" rel="noreferrer noopener"
           >
             <i className="bx bxl-instagram"></i>
           </a>
@@ -41,7 +41,7 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/chirag-wadyalkar-b723b9220/"
             className="footer__social-link"
-            target="_blank"
+            target="_blank" rel="noreferrer noopener"
           >
             <i className="bx bxl-linkedin"></i>
           </a>
@@ -49,14 +49,14 @@ const Footer = () => {
           <a
             href="https://github.com/cwadyalkar"
             className="footer__social-link"
-            target="_blank"
+            target="_blank" rel="noreferrer noopener"
           >
             <i className="bx bxl-github"></i>
           </a>
           <a
             href="https://twitter.com/ChiragWadyalkar"
             className="footer__social-link"
-            target="_blank" 
+            target="_blank" rel="noreferrer noopener"
           >
             <i className="bx bxl-twitter"></i>
           </a>

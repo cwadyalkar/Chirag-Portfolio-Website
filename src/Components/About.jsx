@@ -26,7 +26,7 @@ const About = () => {
 
           <a
             href="https://drive.google.com/file/d/1JG5oEs04oF1nDJFej8HhLgXc47Cwx5KX/view?usp=sharing"
-            target="_blank"
+            target="_blank" rel="noreferrer noopener"
             className="button button--flex"
           >
             Check Resume
