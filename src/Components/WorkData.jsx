@@ -6,6 +6,7 @@ import Work5 from "../assets/workno5.png"
 import Work6 from "../assets/workno6.png"
 import Work7 from "../assets/Google Meet Static Page Clone (1).png"
 import Work8 from "../assets/Simple Calulator UI.png"
+import Work9 from "../assets/work8.png"
 
 
 export const projectsData = [
@@ -56,6 +57,12 @@ export const projectsData = [
         image: Work8,
         title:'Simple Calculator App',
         category:"Design"
+    },
+    {
+        id:8,
+        image: Work9,
+        title:'Practise Portfolio',
+        category:"Web"
     },
    
 ]

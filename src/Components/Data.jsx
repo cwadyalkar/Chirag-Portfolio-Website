@@ -64,8 +64,7 @@ const Data = () => {
       <span className="home__subtitle" style={{fontWeight:'bold'}}>{text}</span>
       <span className="home__subtitle"><Cursor/></span>
       <p className="home__description">
-        I Am a Passionate MERN Stack Developer Dedicated to Crafting Robust,
-        Scalable, and User-centric Applications.
+      I am a passionate programmer with a strong foundation in Programming Technologies. My expertise lies in MERN Stack Development, and I am dedicated to delivering efficient and scalable solutions. With a keen eye for detail and a love for problem-solving, I thrive in dynamic and challenging environments.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello
