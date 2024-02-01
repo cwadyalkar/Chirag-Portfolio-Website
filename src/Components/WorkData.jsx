@@ -59,7 +59,7 @@ export const projectsData = [
         category:"Design"
     },
     {
-        id:8,
+        id:9,
         image: Work9,
         title:'Practise Portfolio',
         category:"Web"
