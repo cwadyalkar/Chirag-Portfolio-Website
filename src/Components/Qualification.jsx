@@ -105,6 +105,31 @@ const Qualification = () => {
             }>
             <div className="qualification__data">
               <div>
+                <h3 className="qualification__title">Full Stack Developer Intern</h3>
+                <span className="qualification__subtitle">
+                  Bootcoding, Pvt Ltd. - Full Time
+                </span>
+                <span className="qualification__subtitle">
+                As a Full Stack Developer Intern at Bootcoding Pvt Ltd, I have been fortunate to work on a diverse range of projects, leveraging both front-end and back-end technologies to create seamless and robust applications.
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"> </i>
+                  June 2024 - Present
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
                 <h3 className="qualification__title">MERN Stack Developer Intern</h3>
                 <span className="qualification__subtitle">
                   IDEVIFY Solutions, Pvt Ltd. - Full Time
@@ -113,13 +138,9 @@ const Qualification = () => {
                 As a MERN Stack Developer Intern at IDEVIFY Solutions, I play a key role in crafting robust and scalable web applications. Leveraging my expertise in MongoDB, Express.js, React.js, and Node.js, I contribute to the full software development lifecycle, from ideation to deployment.
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>
-                  2024 - Present
+                  <i className="uil uil-calendar-alt"> </i>
+                  Jan 2024 - June 2024
                 </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
               </div>
             </div>
 
