@@ -4,7 +4,7 @@ import {useTypewriter,Cursor} from "react-simple-typewriter"
 const Data = () => {
  
   const [text] = useTypewriter({
-    words: ['Programmer','MERN Stack Developer','Web Developer'],
+    words: ['Programmer','Full Stack Developer','MERN Stack Developer'],
     loop:0,
   })
   return (
@@ -64,7 +64,7 @@ const Data = () => {
       <span className="home__subtitle" style={{fontWeight:'bold'}}>{text}</span>
       <span className="home__subtitle"><Cursor/></span>
       <p className="home__description">
-      I am a passionate programmer with a strong foundation in Programming Technologies. My expertise lies in MERN Stack Development, and I am dedicated to delivering efficient and scalable solutions. With a keen eye for detail and a love for problem-solving, I thrive in dynamic and challenging environments.
+      I am a passionate programmer with a strong foundation in Programming Technologies. My expertise lies in Full Stack Development, and I am dedicated to delivering efficient and scalable solutions. With a keen eye for detail and a love for problem-solving, I thrive in dynamic and challenging environments.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello
