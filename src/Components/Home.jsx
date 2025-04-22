@@ -10,11 +10,11 @@ const Home = () => {
       <div className="home__container container grid">
         <div className="home__content grid">
           <Social />
-
+          {/* hero section image */}
           <div className="home__img"></div>
           <Data />
         </div>
-        <ScrollDown/>
+        <ScrollDown />
       </div>
     </section>
   );

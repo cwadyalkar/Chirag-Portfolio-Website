@@ -1,81 +1,40 @@
-import React from 'react'
+import React from "react";
+
+const otherSkills = [
+  { name: "OOPS", level: "Intermediate" },
+  { name: "Linux", level: "Intermediate" },
+  { name: "DSA", level: "Intermediate" },
+  { name: "Postman", level: "Intermediate" },
+  { name: "Git", level: "Intermediate" },
+  { name: "Github", level: "Intermediate" },
+  { name: "Vs Code", level: "Intermediate" },
+  { name: "DBMS", level: "Intermediate" },
+];
 
 const Others = () => {
   return (
     <div className="skills__content">
-    <h3 className="skills__title">Others</h3>
+      <h3 className="skills__title">Others</h3>
 
-    <div className="skills__box">
-      <div className="skills__group">
-        <div className="skills__data">
-          <i className="bx bx-badge-check"></i>
-          <div>
-            <h3 className="skills__name">OOPS</h3>
-            <span className="skills__level">Intermediate</span>
+      <div className="skills__box">
+        {[0, 1].map((groupIndex) => (
+          <div className="skills__group" key={groupIndex}>
+            {otherSkills
+              .slice(groupIndex * 4, groupIndex * 4 + 4)
+              .map((skill) => (
+                <div className="skills__data" key={skill.name}>
+                  <i className="bx bx-badge-check"></i>
+                  <div>
+                    <h3 className="skills__name">{skill.name}</h3>
+                    <span className="skills__level">{skill.level}</span>
+                  </div>
+                </div>
+              ))}
           </div>
-        </div>
-
-        <div className="skills__data">
-          <i className="bx bx-badge-check"></i>
-          <div>
-            <h3 className="skills__name">Linux</h3>
-            <span className="skills__level">Intermediate</span>
-          </div>
-        </div>
-
-        <div className="skills__data">
-          <i className="bx bx-badge-check"></i>
-          <div>
-            <h3 className="skills__name">DSA</h3>
-            <span className="skills__level">Intermediate</span>
-          </div>
-        </div>
-        <div className="skills__data">
-          <i className="bx bx-badge-check"></i>
-          <div>
-            <h3 className="skills__name">Postman</h3>
-            <span className="skills__level">Intermediate</span>
-          </div>
-        </div>
-      </div>
-      <div className="skills__group">
-        <div className="skills__data">
-          <i className="bx bx-badge-check"></i>
-          <div>
-            <h3 className="skills__name">Git</h3>
-            <span className="skills__level">Intermediate</span>
-          </div>
-        </div>
-
-        <div className="skills__data">
-          <i className="bx bx-badge-check"></i>
-          <div>
-            <h3 className="skills__name">Github</h3>
-            <span className="skills__level">Intermediate</span>
-          </div>
-        </div>
-        <div className="skills__data">
-          <i className="bx bx-badge-check"></i>
-          <div>
-            <h3 className="skills__name">Vs Code</h3>
-            <span className="skills__level">Intermediate</span>
-          </div>
-        </div>
-        <div className="skills__data">
-          <i className="bx bx-badge-check"></i>
-          <div>
-            <h3 className="skills__name">OS</h3>
-            <span className="skills__level">Intermediate</span>
-          </div>
-        </div>
-    
-
-    
-        
+        ))}
       </div>
     </div>
-  </div>
-  )
-}
+  );
+};
 
-export default Others
+export default Others;
